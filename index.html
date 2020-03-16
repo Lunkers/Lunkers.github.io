@@ -1,11 +1,144 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8">
-  <title>Fredrik Lundkvist<title>
+  <title>Fredrik Lundkvist</title>
+  <!--Load bootstrap and dependencies-->
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
 </head>
+
 <body>
-  <h1>Hello world!</h1>
-  <footer>copyright yada yada</footer>
+  <header>
+    <div class="collapse bg-dark" id="navbarHeader" style="">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-8 col-md-7 py-4">
+            <h4 class="text-white">About me</h4>
+            <p class="text-muted">I am currently studying for a master's degree in interactive media technology at KTH, my main
+              interests being computer graphics and vision. I am also interested and proficient in frontend development, mainly using React.
+              This website is a selection of personal and course projects which I have found especially interesting, or am very proud of.
+            </p>
+          </div>
+          <div class="col-sm-4 offset-md-1 py-4">
+            <h4 class="text-white">Contact</h4>
+            <ul class="list-unstyled">
+              <li><a href="https://www.linkedin.com/in/fredrik-lundkvist-4a4148142/" class="text-white">LinkedIn</a></li>
+              <li><a href="https://github.com/Lunkers" class="text-white">Github</a></li>
+              <li><a href="mailto:flundkvi@kth.se" class="text-white">Email me</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="navbar navbar-dark bg-dark shadow-sm">
+      <div class="container d flex">
+        <a class="navbar-brand d-flex align-items-center" href="#">
+          <strong>Fredrik Lundkvist</strong>
+        </a>
+        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarHeader"
+          aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon "></span>
+        </button>
+      </div>
+    </div>
+  </header>
+  <main role="main">
+    <section class="jumbotron text-center">
+      <div class="container">
+        <h1>My work</h1>
+        <p class="leat text-muted">Here you will find a selection of work that i have done so far. Click on an item for
+          more information!</p>
+      </div>
+    </section>
+    <div class="album py-5 bg-light">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+             <img src="hiva.png" width="100%">
+              <div class="card-body">
+                <h1>Hiva</h1>
+                <p class="card-text">Course project in interaction design.
+                  Proof-of-concept prototype for an app to enable media casting with multiple participants. Media queue is synced between multiple devices</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://github.com/Lunkers/queue-with-hooks"><button type="button" class="btn btn-sm btn-outline-secondary" >Source code</button></a>
+                    <a href="hiva_workbook.pdf"><button type="button" class="btn btn-sm btn-outline-secondary">Workbook</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img src="https://www.furhatrobotics.com/wp-content/themes/FurhatCMS-git/build/images/furhat/rotation-base.jpg" width="100%"/>
+              <div class="card-body">
+                <h1>Embodied Voice Assistant</h1>
+                <p class="card-text">Course project in multimodal interaction. 
+                  Embodied a digital voice assistant using a furhat robot. My job included programming the interactions, and the connection to the voice assistant.
+                </p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://github.com/Lunkers/furhat-assistant"><button type="button" class="btn btn-sm btn-outline-secondary">Source code</button></a>
+                    <a href="embodied_assistant.pdf"><button type="button" class="btn btn-sm btn-outline-secondary">Paper</button></a>
+                    <a href="https://vimeo.com/385928202"><button type="button" class="btn btn-sm btn-outline-secondary">Video demo</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img src="tb.png" width="100%">
+              <div class="card-body">
+                <h1>Thunderball</h1>
+                <p class="card-text">Course project in information visualization. A project to visualize weather forecast data, and allow the user to select which forecast they are looking at.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://moawinberg.github.io/project-thunderball/"><button type="button" class="btn btn-sm btn-outline-secondary">Source code</button></a>
+                    <a href="https://moawinberg.github.io/thunderball-pages/"><button type="button" class="btn btn-sm btn-outline-secondary">Project website</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <img src="wvs-proj.png" width="100%">
+              <div class="card-body">
+                <h1>World value visualization</h1>
+                <p class="card-text">Project in information visualization. An attempt to tell a story through data visualization, using d3.js, react, and data from the World Values Survey.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="/ivis20-proj2"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+                    <button type="button" class="btn btn-sm btn-outline-secondary">Source code</button>
+                  </div>
+                  <small class="text-muted">9 mins</small>
+                </div>
+              </div>
+            </div>
+          </div>
+        
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
 </body>
+
 </html>
