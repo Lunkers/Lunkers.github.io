@@ -16,25 +16,29 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
     integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
     crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="styles.css">
 
 </head>
 
 <body>
   <header>
-    <div class="collapse bg-dark" id="navbarHeader" style="">
+    <div class="bg-dark" id="navbarHeader">
       <div class="container">
         <div class="row">
           <div class="col-sm-8 col-md-7 py-4">
-            <h4 class="text-white">About me</h4>
-            <p class="text-muted">I am currently studying for a master's degree in interactive media technology at KTH, my main
-              interests being computer graphics and vision. I am also interested and proficient in frontend development, mainly using React.
-              This website is a selection of personal and course projects which I have found especially interesting, or am very proud of.
+            <h4 class="text-white">Fredrik Lundkvist</h4>
+            <p class="text-white">I am a master's student at KTH in stockholm, currently working towards an MSc in
+              interactive media technology. My interests in the field mainly lie in image and video processing,
+              deep learning, and computer graphics.<br>
+              I am currently looking for a company to write my thesis at in the spring of 2021; if anything on this
+              website interests you, don't hesitate to contact me!
             </p>
           </div>
           <div class="col-sm-4 offset-md-1 py-4">
             <h4 class="text-white">Contact</h4>
             <ul class="list-unstyled">
-              <li><a href="https://www.linkedin.com/in/fredrik-lundkvist-4a4148142/" class="text-white">LinkedIn</a></li>
+              <li><a href="https://www.linkedin.com/in/fredrik-lundkvist-4a4148142/" class="text-white">LinkedIn</a>
+              </li>
               <li><a href="https://github.com/Lunkers" class="text-white">Github</a></li>
               <li><a href="mailto:flundkvi@kth.se" class="text-white">Email me</a></li>
             </ul>
@@ -42,17 +46,7 @@
         </div>
       </div>
     </div>
-    <div class="navbar navbar-dark bg-dark shadow-sm">
-      <div class="container d flex">
-        <a class="navbar-brand d-flex align-items-center" href="#">
-          <strong>Fredrik Lundkvist</strong>
-        </a>
-        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarHeader"
-          aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon "></span>
-        </button>
-      </div>
-    </div>
+
   </header>
   <main role="main">
     <section class="jumbotron text-center">
@@ -64,19 +58,22 @@
     </section>
     <div class="album py-5 bg-light">
       <div class="container">
-
+        <!-- TODO: add Graphics and DL projects here!-->
         <div class="row">
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
-             <a href="hiva_workbook.pdf"><img src="hiva.png" width="100%" href="hiva_workbook.pdf"></a>
+              <a href="hiva_workbook.pdf"><img src="hiva.png" width="100%" href="hiva_workbook.pdf"></a>
               <div class="card-body">
                 <h1>Hiva</h1>
                 <p class="card-text">Course project in interaction design.
-                  Proof-of-concept prototype for an app to enable media casting with multiple participants. Media queue is synced between multiple devices. Built using React native.</p>
+                  Proof-of-concept prototype for an app to enable media casting with multiple participants. Media queue
+                  is synced between multiple devices. Built using React native.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <a href="https://github.com/Lunkers/queue-with-hooks"><button type="button" class="btn btn-sm btn-outline-secondary" >Source code</button></a>
-                    <a href="hiva_workbook.pdf"><button type="button" class="btn btn-sm btn-outline-secondary">Workbook</button></a>
+                    <a href="https://github.com/Lunkers/queue-with-hooks"><button type="button"
+                        class="btn btn-sm btn-outline-secondary">Source code</button></a>
+                    <a href="hiva_workbook.pdf"><button type="button"
+                        class="btn btn-sm btn-outline-secondary">Workbook</button></a>
                   </div>
                 </div>
               </div>
@@ -84,17 +81,23 @@
           </div>
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
-              <a href="embodied_assistant.pdf"><img src="https://www.furhatrobotics.com/wp-content/themes/FurhatCMS-git/build/images/furhat/rotation-base.jpg" width="100%"/></a>
+              <a href="embodied_assistant.pdf"><img
+                  src="robot-front.jpg"
+                  width="100%" /></a>
               <div class="card-body">
                 <h1>Embodied Voice Assistant</h1>
-                <p class="card-text">Course project in multimodal interaction. 
-                  Physically and digitally embodied a digital voice assistant using a furhat robot. My job included programming the interactions, and the connection to the google assistant API.
+                <p class="card-text">Course project in multimodal interaction.
+                  Physically and digitally embodied a digital voice assistant using a furhat robot. My job included
+                  programming the interactions, and the connection to the google assistant API.
                 </p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <a href="https://github.com/Lunkers/furhat-assistant"><button type="button" class="btn btn-sm btn-outline-secondary">Source code</button></a>
-                    <a href="embodied_assistant.pdf"><button type="button" class="btn btn-sm btn-outline-secondary">Paper</button></a>
-                    <a href="https://vimeo.com/385928202"><button type="button" class="btn btn-sm btn-outline-secondary">Video demo</button></a>
+                    <a href="https://github.com/Lunkers/furhat-assistant"><button type="button"
+                        class="btn btn-sm btn-outline-secondary">Source code</button></a>
+                    <a href="embodied_assistant.pdf"><button type="button"
+                        class="btn btn-sm btn-outline-secondary">Paper</button></a>
+                    <a href="https://vimeo.com/385928202"><button type="button"
+                        class="btn btn-sm btn-outline-secondary">Video demo</button></a>
                   </div>
                 </div>
               </div>
@@ -105,13 +108,17 @@
               <a href="moawinberg.github.io/thunderball-pages"><img src="tb.png" width="100%"></a>
               <div class="card-body">
                 <h1>Thunderball</h1>
-                <p class="card-text">Course project in information visualization, in collaboration with Greenlytics. A project to visualize weather forecast data, and allow the user to select which forecast they are looking at.
+                <p class="card-text">Course project in information visualization, in collaboration with Greenlytics. A
+                  project to visualize weather forecast data, and allow the user to select which forecast they are
+                  looking at.
                   Built with React, D3, and MapBox.
                 </p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <a href="https://moawinberg.github.io/project-thunderball/"><button type="button" class="btn btn-sm btn-outline-secondary">Source code</button></a>
-                    <a href="https://moawinberg.github.io/thunderball-pages/"><button type="button" class="btn btn-sm btn-outline-secondary">Project website</button></a>
+                    <a href="https://moawinberg.github.io/project-thunderball/"><button type="button"
+                        class="btn btn-sm btn-outline-secondary">Source code</button></a>
+                    <a href="https://moawinberg.github.io/thunderball-pages/"><button type="button"
+                        class="btn btn-sm btn-outline-secondary">Project website</button></a>
                   </div>
                 </div>
               </div>
@@ -123,23 +130,64 @@
               <a href="/ivis20-proj2"><img src="wvs-proj.png" width="100%"></a>
               <div class="card-body">
                 <h1>World value visualization</h1>
-                <p class="card-text">Project in information visualization. An attempt to tell a story through data visualization, using d3.js, react, and data from the World Values Survey.</p>
+                <p class="card-text">Project in information visualization. An attempt to tell a story through data
+                  visualization, using d3.js, react, and data from the World Values Survey.</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <a href="/ivis20-proj2"><button type="button" class="btn btn-sm btn-outline-secondary">View</button></a>
+                    <a href="/ivis20-proj2"><button type="button"
+                        class="btn btn-sm btn-outline-secondary">View</button></a>
                     <button type="button" class="btn btn-sm btn-outline-secondary">Source code</button>
                   </div>
-                  <small class="text-muted">9 mins</small>
                 </div>
               </div>
             </div>
           </div>
-        
-            </div>
-          </div>
+
         </div>
       </div>
     </div>
+    </div>
+    </div>
+    <section class="jumbotron text-center">
+      <div class="container">
+        <h1>CV</h1>
+        <div class="job-container">
+          <h3>Handelsbanken capital markets</h3>
+          <h4>Fullstack engineer, summer internship (june 2020 - august 2020)</h4>
+          <p>Worked on an internal tool for creating various financial reports related to credit sales. My main
+            contributions consisted of a library to visualize data, as well as adding support for sector analysis
+            reports</p>
+          <p class="text-muted"><b>Technologies:</b> C# (.NET core), Typescript, Angular, D3.js</p>
+        </div>
+        <div class="job-container">
+          <h3>lolo company</h3>
+          <h4>Frontend developer, freelance (october 2019 - february 2020)</h4>
+          <p>Helped the company build their MVP, adding API connections and working on graph logic.</p>
+          <p class="text-muted"><b>Technologies:</b> React</p>
+        </div>
+        <div class="job-container">
+          <h3>DigitalRoute</h3>
+          <h4>Software engineer, summer internship (june 2019 - august 2019)</h4>
+          <p>Software development for the usage data platform, released in 2019. I mostly contributed to the frontend
+            graph editor, and also added functionality for the platform to output data in excel format.</p>
+          <p class="text-muted"><b>Technologies:</b> Typescript, React, Node.js, Express.js, stream processing.</p>
+        </div>
+        <div class="job-container">
+          <h3>KTH</h3>
+          <h4>Teaching assistant (september 2018 - january 2019)</h4>
+          <p>Teaching assistant for the course SF1919 Probability Theory and Statistics. I led tutorials and computer
+            labs for undergraduate students throughout the course.</p>
+        </div>
+        <div class="job-container">
+          <h3>Ericsson</h3>
+          <h4>Software engineer, summer internship (summer 2017, summer 2018)</h4>
+          <p>Built an internal web application to monitor and visualize automated testing of cloud operating systems.
+            The application visualized aggregated test data at several levels, and allowed users to control and schedule
+            test runs, as well as access logs to determine which tests failed.</p>
+          <p class="text-muted"><b>Technologies:</b> Typescript, Angular, Java, Spring framework, D3.js.</p>
+        </div>
+      </div>
+    </section>
   </main>
 </body>
 
