@@ -29,9 +29,9 @@
             <h4 class="text-white">Fredrik Lundkvist</h4>
             <p class="text-white">I am a master's student at KTH in stockholm, currently working towards an MSc in
               interactive media technology. My interests in the field mainly lie in image and video processing,
-              deep learning, and computer graphics.<br>
-              I am currently looking for a company to write my thesis at in the spring of 2021; if anything on this
-              website interests you, don't hesitate to contact me!
+              deep learning, and information visualization.<br>
+              I am currently working on my Master's thesis in collaboration with <a href="https://svti.svt.se"
+                style="text-decoration: none; color: white;">SVT</a>!
             </p>
           </div>
           <div class="col-sm-4 offset-md-1 py-4">
@@ -49,20 +49,63 @@
 
   </header>
   <main role="main">
-    <section class="jumbotron text-center">
+    <!-- <section class="jumbotron text-center">
       <div class="container">
-        <h1>My work</h1>
-        <p class="leat text-muted">Here you will find a selection of work that i have done so far. Click on an item for
-          more information!</p>
+        
       </div>
-    </section>
+    </section> -->
     <div class="album py-5 bg-light">
+
       <div class="container">
+        <div class="work-header">
+          <h1>My work</h1>
+          <p class="leat text-muted">Selected projects that I've been a part of (and am satisfied enough with) to show
+            off!</p>
+        </div>
         <!-- TODO: add Graphics and DL projects here!-->
         <div class="row">
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
-              <a href="hiva_workbook.pdf"><img src="hiva.png" width="100%" href="hiva_workbook.pdf"></a>
+              <a href="https://lunkers.github.io/AGI_bARpong_website" target="_"><img src="barpong-img.jpg"
+                  width="100%"></a>
+              <div class="card-body">
+                <h1>bARpong</h1>
+                <p class="card-text">Course project in Advanced graphics and interaction.<br />An augmented reality beer
+                  pong game, built with Unity using AR foundation. My main contributions were physics programming,
+                  collision detection, light estimation, and onboarding UI.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://github.com/Lunkers/AGI_Group7_bARpong"><button type="button"
+                        class="btn btn-sm btn-outline-secondary">Source code</button></a>
+                    <a href="https://lunkers.github.io/AGI_bARpong_website"><button type="button"
+                        class="btn btn-sm btn-outline-secondary">Web page</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <a href="DD2412_Project_report.pdf" target="_"><img class="card-img"src="glowtorch-generated.png"
+                  width="100%"></a>
+              <div class="card-body">
+                <h1>GLOWTorch</h1>
+                <p class="card-text">Course project in Advanced deep learning.<br />An implementation of the generative
+                  model GLOW in pytorch. I worked on some of the layers, as well as the training script.</p>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a href="https://github.com/Lunkers/DD2412-project"><button type="button"
+                        class="btn btn-sm btn-outline-secondary">Source code</button></a>
+                    <a href="DD2412_Project_report.pdf" target="_"><button type="button"
+                        class="btn btn-sm btn-outline-secondary">Paper</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <a href="hiva_workbook.pdf" target="_"><img src="hiva.png" width="100%" href="hiva_workbook.pdf"></a>
               <div class="card-body">
                 <h1>Hiva</h1>
                 <p class="card-text">Course project in interaction design.
@@ -81,7 +124,7 @@
           </div>
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
-              <a href="embodied_assistant.pdf"><img src="robot-front.jpg" width="100%" /></a>
+              <a href="embodied_assistant.pdf" target="_"><img src="robot-front.jpg" width="100%" /></a>
               <div class="card-body">
                 <h1>Embodied Voice Assistant</h1>
                 <p class="card-text">Course project in multimodal interaction.
@@ -205,7 +248,7 @@
           <h3>DigitalRoute</h3>
           <h4>Software engineer, summer internship (june 2019 - august 2019)</h4>
           <p>Software development for the usage data platform, released in 2019. I mostly contributed to the frontend
-            graph editor, and also added functionality for the platform to output data in excel format.</p>
+            graph editor, and also added functionality for the platform to output data streams to excel.</p>
           <p class="text-muted"><b>Technologies:</b> Typescript, React, Node.js, Express.js, stream processing.</p>
         </div>
         <div class="job-container">

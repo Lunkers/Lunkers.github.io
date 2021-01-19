@@ -2,3 +2,9 @@
     text-align: left;
     max-width: 75%;
 }
+.work-header  {
+    text-align: center;
+}
+.card-img {
+    height: 15rem;
+}
