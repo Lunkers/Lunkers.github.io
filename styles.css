@@ -7,4 +7,33 @@
 }
 .card-img {
     height: 15rem;
+    object-fit: cover;
+    width:100%;
+}
+
+
+.btn-group {
+    display: inline-block;
+}
+
+#portrait {
+    border: 2px solid white;
+    max-width: 100%;
+}
+
+#img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 1rem;
+}
+
+.about-me {
+    display: grid;
+    grid-template-columns: 25% 80%;
+}
+
+
+.card {
+    height: 45rem;
 }

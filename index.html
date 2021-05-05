@@ -26,13 +26,21 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-8 col-md-7 py-4">
-            <h4 class="text-white">Fredrik Lundkvist</h4>
-            <p class="text-white">I am a master's student at KTH in stockholm, currently working towards an MSc in
-              interactive media technology. My interests in the field mainly lie in image and video processing,
-              deep learning, and information visualization.<br>
-              I am currently working on my Master's thesis in collaboration with <a href="https://svti.svt.se"
-                style="text-decoration: none; color: white;">SVT</a>!
-            </p>
+            <div class="about-me">
+              <div id="img-container">
+                <img src="fredrik.jpg" id="portrait" />
+              </div>
+              <div id="text-container">
+                <h4 class="text-white">Fredrik Lundkvist</h4>
+                <p class="text-white">I am a master's student at KTH in stockholm, currently working towards an MSc in
+                  interactive media technology. My main interest is video, primarily transcoding.
+                  I also have experience with fullstack development, information visualization, deep learning, and
+                  computer graphics.<br>
+                  I am currently working on my Master's thesis on the topic of using deep learning for video scaling in collaboration
+                  with <a href="https://svti.svt.se" style="text-decoration: none; color: white;">SVT</a>!
+                </p>
+              </div>
+            </div>
           </div>
           <div class="col-sm-4 offset-md-1 py-4">
             <h4 class="text-white">Contact</h4>
@@ -66,19 +74,22 @@
         <div class="row">
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
-              <a href="https://lunkers.github.io/AGI_bARpong_website" target="_"><img src="barpong-img.jpg"
+              <a href="https://lunkers.github.io/AGI_bARpong_website" target="_"><img class="card-img" src="barpong-img.jpg"
                   width="100%"></a>
               <div class="card-body">
                 <h1>bARpong</h1>
                 <p class="card-text">Course project in Advanced graphics and interaction.<br />An augmented reality beer
                   pong game, built with Unity using AR foundation. My main contributions were physics programming,
                   collision detection, light estimation, and onboarding UI.</p>
+
+              </div>
+              <div class="card-footer">
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <a href="https://github.com/Lunkers/AGI_Group7_bARpong"><button type="button"
-                        class="btn btn-sm btn-outline-secondary">Source code</button></a>
+                        class="btn btn-sm btn-primary">Source code</button></a>
                     <a href="https://lunkers.github.io/AGI_bARpong_website"><button type="button"
-                        class="btn btn-sm btn-outline-secondary">Web page</button></a>
+                        class="btn btn-sm btn-primary">Web page</button></a>
                   </div>
                 </div>
               </div>
@@ -86,18 +97,21 @@
           </div>
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
-              <a href="DD2412_Project_report.pdf" target="_"><img class="card-img"src="glowtorch-generated.png"
+              <a href="DD2412_Project_report.pdf" target="_"><img class="card-img" src="glowtorch-generated.png"
                   width="100%"></a>
               <div class="card-body">
                 <h1>GLOWTorch</h1>
                 <p class="card-text">Course project in Advanced deep learning.<br />An implementation of the generative
                   model GLOW in pytorch. I worked on some of the layers, as well as the training script.</p>
+
+              </div>
+              <div class="card-footer">
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <a href="https://github.com/Lunkers/DD2412-project"><button type="button"
-                        class="btn btn-sm btn-outline-secondary">Source code</button></a>
+                        class="btn btn-sm btn-primary">Source code</button></a>
                     <a href="DD2412_Project_report.pdf" target="_"><button type="button"
-                        class="btn btn-sm btn-outline-secondary">Paper</button></a>
+                        class="btn btn-sm btn-primary">Paper</button></a>
                   </div>
                 </div>
               </div>
@@ -105,18 +119,21 @@
           </div>
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
-              <a href="hiva_workbook.pdf" target="_"><img src="hiva.png" width="100%" href="hiva_workbook.pdf"></a>
+              <a href="hiva_workbook.pdf" target="_"><img class="card-img" src="hiva.png" width="100%" href="hiva_workbook.pdf"></a>
               <div class="card-body">
                 <h1>Hiva</h1>
                 <p class="card-text">Course project in interaction design.
                   Proof-of-concept prototype for an app to enable media casting with multiple participants. Media queue
                   is synced between multiple devices. Built using React native.</p>
+
+              </div>
+              <div class="card-footer">
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <a href="https://github.com/Lunkers/queue-with-hooks"><button type="button"
-                        class="btn btn-sm btn-outline-secondary">Source code</button></a>
+                        class="btn btn-sm btn-primary">Source code</button></a>
                     <a href="hiva_workbook.pdf"><button type="button"
-                        class="btn btn-sm btn-outline-secondary">Workbook</button></a>
+                        class="btn btn-sm btn-primary">Workbook</button></a>
                   </div>
                 </div>
               </div>
@@ -124,21 +141,24 @@
           </div>
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
-              <a href="embodied_assistant.pdf" target="_"><img src="robot-front.jpg" width="100%" /></a>
+              <a href="embodied_assistant.pdf" target="_"><img class="card-img" src="robot-front.jpg" width="100%" /></a>
               <div class="card-body">
                 <h1>Embodied Voice Assistant</h1>
                 <p class="card-text">Course project in multimodal interaction.
                   Physically and digitally embodied a digital voice assistant using a furhat robot. My job included
                   programming the interactions, and the connection to the google assistant API.
                 </p>
-                <div class="d-flex justify-content-between align-items-center">
+
+              </div>
+              <div class="card-footer">
+                <div class="d-flex align-items-center">
                   <div class="btn-group">
                     <a href="https://github.com/Lunkers/furhat-assistant"><button type="button"
-                        class="btn btn-sm btn-outline-secondary">Source code</button></a>
+                        class="btn btn-sm btn-primary">Source code</button></a>
                     <a href="embodied_assistant.pdf"><button type="button"
-                        class="btn btn-sm btn-outline-secondary">Paper</button></a>
-                    <a href="https://vimeo.com/385928202"><button type="button"
-                        class="btn btn-sm btn-outline-secondary">Video demo</button></a>
+                        class="btn btn-sm btn-primary">Paper</button></a>
+                    <a href="https://vimeo.com/385928202"><button type="button" class="btn btn-sm btn-primary">Video
+                        demo</button></a>
                   </div>
                 </div>
               </div>
@@ -146,7 +166,7 @@
           </div>
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
-              <a href="moawinberg.github.io/thunderball-pages"><img src="tb.png" width="100%"></a>
+              <a href="moawinberg.github.io/thunderball-pages"><img class="card-img" src="tb.png" width="100%"></a>
               <div class="card-body">
                 <h1>Thunderball</h1>
                 <p class="card-text">Course project in information visualization, in collaboration with Greenlytics. A
@@ -154,12 +174,15 @@
                   looking at.
                   Built with React, D3, and MapBox.
                 </p>
-                <div class="d-flex justify-content-between align-items-center">
+
+              </div>
+              <div class="card-footer">
+                <div class="d-flex justify-content-between ">
                   <div class="btn-group">
                     <a href="https://moawinberg.github.io/project-thunderball/"><button type="button"
-                        class="btn btn-sm btn-outline-secondary">Source code</button></a>
+                        class="btn btn-sm btn-primary">Source code</button></a>
                     <a href="https://moawinberg.github.io/thunderball-pages/"><button type="button"
-                        class="btn btn-sm btn-outline-secondary">Project website</button></a>
+                        class="btn btn-sm btn-primary">Project website</button></a>
                   </div>
                 </div>
               </div>
@@ -168,17 +191,19 @@
 
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
-              <a href="/ivis20-proj2"><img src="wvs-proj.png" width="100%"></a>
+              <a href="/ivis20-proj2"><img class="card-img" src="wvs-proj.png" width="100%"></a>
               <div class="card-body">
                 <h1>World value visualization</h1>
                 <p class="card-text">Project in information visualization. An attempt to tell a story through data
                   visualization, using d3.js, react, and data from the World Values Survey.</p>
+
+              </div>
+              <div class="card-footer">
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
-                    <a href="/ivis20-proj2"><button type="button"
-                        class="btn btn-sm btn-outline-secondary">View</button></a>
+                    <a href="/ivis20-proj2"><button type="button" class="btn btn-sm btn-primary">View</button></a>
                     <a href="https://github.com/Lunkers/ivis20-proj2"><button type="button"
-                        class="btn btn-sm btn-outline-secondary">Source code</button></a>
+                        class="btn btn-sm btn-primary">Source code</button></a>
                   </div>
                 </div>
               </div>
@@ -186,18 +211,21 @@
           </div>
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
-              <a href="Report-Path-Tracer.pdf"><img src="path-tracer.png" width="100%"></a>
+              <a href="Report-Path-Tracer.pdf"><img class="card-img" src="path-tracer.png" width="100%"></a>
               <div class="card-body">
                 <h1>Simple path tracer</h1>
                 <p class="card-text">Course project in computer graphics and interaction at KTH. Implemented a simpe
                   path tracer in C++, with cosine-weighted sampling, parallel rendering, and fast intersection tests
                   using the Möller-Trombore algorithm</p>
+
+              </div>
+              <div class="card-footer">
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <a href="Report-Path-Tracer.pdf"><button type="button"
-                        class="btn btn-sm btn-outline-secondary">Paper</button></a>
+                        class="btn btn-sm btn-primary">Paper</button></a>
                     <a href="https://github.com/Lunkers/dh2323-path-tracer"><button type="button"
-                        class="btn btn-sm btn-outline-secondary">Source code</button></a>
+                        class="btn btn-sm btn-primary">Source code</button></a>
                   </div>
                 </div>
               </div>
@@ -205,18 +233,21 @@
           </div>
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
-              <a href="DD2424_project_report_group_110.pdf"><img src="notes.png" width="100%"></a>
+              <a href="DD2424_project_report_group_110.pdf"><img class="card-img" src="notes.png" width="100%"></a>
               <div class="card-body">
                 <h1>LSTM music generator</h1>
                 <p class="card-text">Course project in the course deep learning in data science at KTH. We attempted to
                   train a neural network to generate classical music by training it on many hours of MIDI data. While
                   the project wasn't a success, we learned a lot about implementing neural networks in pytorch.</p>
+
+              </div>
+              <div class="card-footer">
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group">
                     <a href="DD2424_project_report_group_110.pdf"><button type="button"
-                        class="btn btn-sm btn-outline-secondary">Paper</button></a>
+                        class="btn btn-sm btn-primary">Paper</button></a>
                     <a href="https://github.com/Lunkers/DD2424-lstm-music-generator"><button type="button"
-                        class="btn btn-sm btn-outline-secondary">Source code</button></a>
+                        class="btn btn-sm btn-primary">Source code</button></a>
                   </div>
                 </div>
               </div>
