@@ -32,9 +32,8 @@
               </div>
               <div id="text-container">
                 <h4 class="text-white">Fredrik Lundkvist</h4>
-                <p class="text-white">I'm a software developer based in Stockholm, Sweden, with an interest in video
-                  software. <br />
-                  Currently working at <a href="https://svti.svt.se">SVT</a>, where I build an maintain systems for
+                <p class="text-white">I'm a software engineer based in Stockholm, Sweden, with an interest in video technology, primarily on the streaming side of things.<br />
+                  Currently working at <a href="https://svti.svt.se">SVT</a>, where I build and maintain systems for
                   video transcoding, packaging, and publishing.
                 </p>
               </div>
@@ -68,8 +67,31 @@
           <p class="leat text-muted">Selected projects that I've been a part of (and am satisfied enough with) to show
             off!</p>
         </div>
-        <!-- TODO: add Graphics and DL projects here!-->
         <div class="row">
+          <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <a href="https://github.com/svt/encore" target="_"><img class="card-img" src="svt_encore_logo.png" width="100%"></a>
+              <div class="card-body">
+                <h1>Encore</h1>
+                <p class="card-text">Encore is SVT's in-house VOD transcoding engine, built on top of open source software such as FFMPEG, Redis, and MediaInfo.
+                  Encore is a Spring Boot app written in Kotlin, and transcodes hundreds of hours of video each day in our production environment. <br/>
+                  We've decided to release Encore as open source software under the EUGPL license, available for everyone to use. 
+                </p>
+              </div>
+              <div class="card-footer">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div class="btn-group">
+                    <a
+                      href="https://svt.github.io/encore-doc"><button
+                        type="button" class="btn btn-sm btn-primary">Documentation</button></a>
+                    <a href="https://github.com/svt/encore"><button type="button"
+                        class="btn btn-sm btn-primary">GitHub</button></a>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="col-md-4">
             <div class="card mb-4 shadow-sm">
               <a href="svt.se/open/content" target="_"><img class="card-img" src="open_content.jpeg" width="100%"></a>
@@ -285,12 +307,15 @@
         <h1>CV</h1>
         <div class="job-container">
           <h3>Sveriges Television</h3>
-          <h4>Developer</h4>
+          <h4>Developer and Scrum Master</h4>
           <p>At SVT, I work on video transcoding, packaging, and publishing online VOD content for all of SVT's online
             services.
             This includes news, the streaming service SVT Play, and a number of other client services. Most of my time
             is spent writing microservices
             in Kotlin, with some video-related R&D thrown in here and there. </p>
+            <p>
+              Since autumn 2022, I also serve as Scrum master for team Video Core. In this role, I organize and lead agile rituals such as standups, Lean Coffee, and retrospectives.
+            </p>
           <p class="text-muted"><b>Technologies:</b> Kotlin, React, FFMPEG, HLS, DASH, Spring Boot, Kafka</p>
         </div>
         <div class="job-container">
